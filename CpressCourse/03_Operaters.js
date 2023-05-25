@@ -21,4 +21,3 @@ console.log(one === one_str); //looking value and data type together
 //logical operators same like Java. We have only short circuit &&(and), ||(or) operators
 //control flow statements same as Java. if-else/switch/break/continue
 //ternary operators same as Java
-//Loops (while and for) same as Java
