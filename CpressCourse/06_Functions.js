@@ -22,8 +22,23 @@ let divide = function (a,b) {
     return a/b;
 }
 
+let sum = function (a,b) {
+    return a+b;
+}
+
 console.log(divide(30,5));
 
 let functionVariable = divide;
 
 console.log(functionVariable(60,32));
+
+
+// You can pass as an arg to other functions
+
+let average = function (a,b,fn) {
+    return fn(a,b)/2;
+}
+
+let averageResult = average(10,20,sum)
+
+console.log(averageResult);
